@@ -1,6 +1,6 @@
 function hardship () {
     document.getElementById("avatar1").src = "img/argue.png";
-    document.getElementById("avatar2").src = "img/mad.png";
+    document.getElementById("avatar2").src = "img/Mad.png";
     document.getElementById("title-desc").innerHTML = "Arguments/Fights";
     document.getElementById("img-side").style.display = "flex";
         
