@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Gill sans;
+    background-color: #4E4856;
+}
+
+.loginHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loginHead h1{
+    font-size: 50px;
+    color: wheat;
+}
+.para{
+    padding: 10px 0 20px 0;
+
+}
+
+.container {
+    display: flex;
+ justify-content: center;
+    width: 100%; /* Ensure the container takes the full width of the viewport */
+    height: 100%; /* Ensure the container takes the full height of the viewport */
+}
+
+.para p {
+    font-size: 20px;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 100%; /* Adjust width to fit the screen better on smaller devices */
+    max-width: 550px; /* Max width for larger screens */
+    padding: 20px;
+    border: solid white;
+    border-radius: 10px; /* Optional: add some border-radius for aesthetics */
+    background-color: rgba(255, 255, 255, 0.1); /* Optional: slight background color for better contrast */
+}
+.button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button{
+    width: 150px;
+    height: 30px;
+    border-radius:20px;
+    color: black;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+
+
+.input{
+    margin-bottom: 20px;
+}
+.input-form{
+    width: 250px;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+}
